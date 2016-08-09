@@ -1,0 +1,33 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<div class="title">
+<a href="/tasks" width="42""> <img src="http://www.mariowiki.com/images/thumb/1/19/Pokemon_Emblem.png/50px-Pokemon_Emblem.png"> </a>
+  <h1>TASK MANAGER</h1>
+  <h3>The place to manage your tasks </h3>
+  <br>
+  <h3>Edit your Task </h3>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4"> </div>
+    <div class="col-sm-4 text-center">
+    <div class="task_card_2 list">
+
+        <%= form_for(@tasks) do |f| %>
+        <%= f.label :name %>
+        <%= f.text_field :name %>
+        <br>
+        <%= f.label :detail %>
+        <%= f.text_field :detail %>
+         <br>
+        <%= f.submit %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+ <%= link_to "Back to Menu", "/tasks", :class => "btn btn-primary" %>

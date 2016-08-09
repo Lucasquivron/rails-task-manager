@@ -1,0 +1,78 @@
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+padding-top: 70px;
+text-align: center;
+}
+
+.title {
+padding-top: 20px;
+padding-right: 20px;
+padding-left: 20px;
+padding-bottom: 0px;
+}
+
+.title h1 {
+  font-family: "Open Sans";
+  font-size: 36px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26.4px;
+  margin-bottom: 3px;
+}
+
+.list h2 {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 15.4px;
+
+}
+
+.title h3 {
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 15.4px;
+  margin-top: 0px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 0px;
+}
+
+
+
+.task_card {
+  background-color: #FAFAFA;
+  padding-top: 1px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 4px;
+  margin-top:30px;
+  margin-right:5px;
+  margin-bottom:0px;
+  margin-left:0;
+}
+
+.task_card_2 {
+  background-color: #FAFAFA;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 4px;
+  margin-top:30px;
+  margin-right:5px;
+  margin-bottom:0px;
+  margin-left:0;
+}
+
+
+
